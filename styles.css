@@ -1,0 +1,344 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+* {
+    font-family: Fredoka;
+}
+
+body {
+    margin: 0 auto;
+    content: '';
+
+}
+
+header.header {
+    display: flex;
+    align-items: center;
+
+}
+
+header.header img {
+    width: 150px;
+}
+
+section.top-page {
+    background: url('../images/background.jpg'); 
+    background-size: cover;
+    height: 80vh;
+    padding: 25px;
+}
+
+.landing-page {
+    padding: 20px 30px;
+}
+
+.Big-Title {
+    color: black;
+    font-size: 60px;
+    font-family: 'Fredoka';
+
+}
+
+.Big-Tiitle {
+    color: black;
+    font-size: 60px;
+    font-family: 'Fredoka';
+
+}
+
+.scroll-down {
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    bottom: 400px;
+}
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 400px;
+    margin-left: 50px;
+}
+
+nav.nav li {
+    color:white;
+
+}
+
+.Serviços {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+.service-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.delivery-icon {
+    font-size: 50px;
+    color: gray;
+
+}
+
+.service-details {
+    font-weight: 600px;
+    width: 200px;
+    text-align: center;
+
+}
+
+.section-title {
+    font-size: 50px;
+    font-family: Fredoka;
+    font-weight: 100px;
+    position: relative;
+}
+    
+.section-title::before {
+    content: '';
+    position: absolute;
+    background-color: grey;
+    width: 50px;
+    height: 7px;
+    bottom: 0;
+}
+
+.best-room {
+    background-color: red;
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.Os-Quartos {
+    margin: 50px;
+}
+
+.Quartos {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.no-grid {
+    min-width: 350px;
+    height: 500px;
+    flex: 1;
+}
+
+.quarto1 {
+    background-image: url(../images/Quarto1.jpg);
+}
+
+.quarto2 {
+    background-image: url(../images/Quarto1.jpg);
+}
+
+.quarto3 {
+    background-image: url(../images/Quarto1.jpg);
+}
+
+.quarto4 {
+    background-image: url(../images/Quarto1.jpg);
+}
+
+.qrtdetails {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: #FFFFFFDF;
+    padding: 5px 20px;
+}
+
+.nome-quarto {
+    font-size: 22px;
+    font-weight: 600;
+    color: black;
+    line-height: 3px;
+
+}
+
+.preco-quarto {
+    color: black;
+    line-height: 3px;
+    font-weight: 800;
+}
+
+.all-rooms {
+    margin: 100px;
+}
+
+.text {
+    font-size: 24px;
+}
+
+.moreText {
+    display: none;
+}
+  
+.read-more-btn {
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+  
+.text.show-more .moreText {
+    display: inline;
+}
+  
+.text.show-more .dots {
+    display: none;
+}
+
+.about{
+    background: url('../images/background.jpg'); 
+    background-size: 162%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+}
+.inner-section{
+    width: 55%;
+    float: right;
+    background-color: grey;
+    padding: 140px;
+    box-shadow: 13px 12px 8px rgba(0,0,0,0.3);
+}
+.inner-section h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.text{
+    font-size: 15px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.container{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 100px;
+}
+
+.container:after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-color: gray;
+	background-size: cover;
+	filter: blur(50px);
+	z-index: -1;
+}
+.contact-box{
+	max-width: 850px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: left;
+	align-items: center;
+	text-align: center;
+	background-color: #fff;
+	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+}
+
+.left{
+	background: url("../images/Background2.jpg") no-repeat center;
+	background-size: cover;
+	height: 100%;
+}
+
+.right{
+	padding: 25px 40px;
+}
+
+h2{
+	position: relative;
+	padding: 0 0 10px;
+	margin-bottom: 10px;
+}
+
+h2:after{
+	content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: gray;
+}
+
+.field{
+	width: 100%;
+	border: 2px solid rgba(0, 0, 0, 0);
+	outline: none;
+	background-color: rgba(230, 230, 230, 0.6);
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	margin-bottom: 22px;
+	transition: .3s;
+}
+
+.field:hover{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+textarea{
+	min-height: 150px;
+}
+
+.btn{
+	width: 100%;
+	padding: 0.5rem 1rem;
+	background-color: gray;
+	color: #fff;
+	font-size: 1.1rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.btn:hover{
+    background-color: black;
+}
+
+.field:focus{
+    border: 2px solid rgba(30,85,250,0.47);
+    background-color: #fff;
+}
+
+@media screen and (max-width: 880px){
+	.contact-box{
+		grid-template-columns: 1fr;
+	}
+	.left{
+		height: 200px;
+	}
+}
+
+
+
